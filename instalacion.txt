@@ -1,0 +1,8 @@
+Abre una terminal o línea de comandos en tu computadora.
+Crea una nueva carpeta para tu proyecto y muévete a esa carpeta usando el comando cd.
+Ejecuta el comando npm init para inicializar un nuevo proyecto de Node.js. Este comando te guiará a través de la creación de un archivo package.json, que contiene la información de tu proyecto y sus dependencias.
+Instala Express como dependencia de tu proyecto ejecutando el siguiente comando en la terminal: npm install express.
+Crea un archivo index.js en la carpeta de tu proyecto y abrelo con un editor de texto.
+Agrega el siguiente código al archivo index.js:
+
+

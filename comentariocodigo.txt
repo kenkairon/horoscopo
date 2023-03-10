@@ -1,0 +1,8 @@
+En este ejemplo, definimos una ruta en Node Express para la URL /horoscopo-chino/:fechaNacimiento,
+ donde :fechaNacimiento es un parámetro que representa la fecha de nacimiento en formato YYYY-MM-DD.
+  Utilizamos Moment.js para convertir la fecha de nacimiento en un objeto moment y obtener el año correspondiente. 
+  Luego, utilizamos una fórmula matemática para determinar el animal del horóscopo chino basado en el año de nacimiento.
+
+Finalmente, utilizamos el método res.send() de Node Express para enviar una página HTML al cliente que muestra el animal
+ correspondiente al horóscopo chino. La página HTML se compone de una etiqueta h1 que indica el título de la página y un p 
+ que muestra el animal correspondiente.
